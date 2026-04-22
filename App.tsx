@@ -159,7 +159,7 @@ const projectsList = {
 
 // ==================== MAIN APP ====================
 const App: React.FC = () => {
-  const [lang, setLang] = useState<Language>('ar');
+  const [lang, setLang] = useState<Language>('en');
   const t = translations[lang] || translations['en'];
   const isRtl = lang === 'ar';
   const [mobileMenu, setMobileMenu] = useState(false);
